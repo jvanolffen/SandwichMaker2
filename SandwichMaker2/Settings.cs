@@ -15,7 +15,22 @@ namespace SandwichMaker2
         {
             InitializeComponent();
             this.Size = new Size(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
-            
+            SettingsContainer.Location = new Point((Screen.PrimaryScreen.Bounds.Width - SettingsContainer.Width) / 2, (Screen.PrimaryScreen.Bounds.Height - SettingsContainer.Height) / 2);
+            OkButton.Location = new Point((SettingsContainer.Width - OkButton.Width - 20), (SettingsContainer.Height - OkButton.Height - 20));
+            CancelButton.Location = new Point((SettingsContainer.Width - OkButton.Width - CancelButton.Width - 40), (SettingsContainer.Height - CancelButton.Height - 20));
+
+            //SettingsLayoutTable
         }
+
+        private void OkClicked(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void CancelClicked(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
     }
 }
