@@ -15,8 +15,18 @@ void loop() {
   analogWrite(pinPWM, 255);
   delay(1000);
   
+  digitalWrite(pinDirection, LOW);
+  digitalWrite(pinBrake, LOW);
+  analogWrite(pinPWM, 0);
+  delay(1000);  
+  
   digitalWrite(pinDirection, HIGH);
   digitalWrite(pinBrake, LOW);
   analogWrite(pinPWM, 255);
+  delay(1000);
+  
+  digitalWrite(pinDirection, HIGH);
+  digitalWrite(pinBrake, LOW);
+  analogWrite(pinPWM, 0);
   delay(1000);
 }
