@@ -9,13 +9,15 @@ namespace SandwichMaker2
     class Arduino
     {
         private SerialPort serialPort;
-        private int[] sandwich = new int[10];
+        
         
         public void Send(int[] input)
         {
-            sandwich = input;
+            byte[] sandwich = new byte[10];
+            for (int i = 0; i < input.Length; i++) sandwich[i] = Convert.ToByte(input[i]);
             serialPort.Open();
             //stuur bericht
+            serialPort.Write(sandwich, 0, 10);
             serialPort.Close();
             
         }
