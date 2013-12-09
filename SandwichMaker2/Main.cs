@@ -60,51 +60,39 @@ namespace SandwichMaker2
             switch (p.Name)
             {
                 case "Ingredient1":
-                    MessageBox.Show("1");
                     sandwich.AddProduct(1);
                     break;
                 case "Ingredient2":
-                    MessageBox.Show("2");
                     sandwich.AddProduct(2);
                     break;
                 case "Ingredient3":
-                    MessageBox.Show("3");
                     sandwich.AddProduct(3);
                     break;
                 case "Ingredient4":
-                    MessageBox.Show("4");
                     sandwich.AddProduct(4);
                     break;
                 case "Ingredient5":
-                    MessageBox.Show("5");
                     sandwich.AddProduct(5);
                     break;
                 case "Ingredient6":
-                    MessageBox.Show("6");
                     sandwich.AddProduct(6);
                     break;
                 case "Ingredient7":
-                    MessageBox.Show("7");
                     sandwich.AddProduct(7);
                     break;
                 case "Ingredient8":
-                    MessageBox.Show("8");
                     sandwich.AddProduct(8);
                     break;
                 case "Ingredient9":
-                    MessageBox.Show("9");
                     sandwich.AddProduct(9);
                     break;
                 case "Ingredient10":
-                    MessageBox.Show("10");
                     sandwich.AddProduct(10);
                     break;
                 case "Ingredient11":
-                    MessageBox.Show("11");
                     sandwich.AddProduct(11);
                     break;
                 case "Ingredient12":
-                    MessageBox.Show("12");
                     sandwich.AddProduct(12);
                     break;
 
@@ -178,6 +166,129 @@ namespace SandwichMaker2
                     break;
 
             }
+        }
+
+        private void delProduct(object sender, EventArgs e)
+        {
+            PictureBox p = (PictureBox)sender;
+
+            switch (p.Name)
+            {
+                case "delProduct1":
+                    sandwich.DeleteProduct(10);
+                    break;
+                case "delProduct2":
+                    sandwich.DeleteProduct(9);
+                    break;
+                case "delProduct3":
+                    sandwich.DeleteProduct(8);
+                    break;
+                case "delProduct4":
+                    sandwich.DeleteProduct(7);
+                    break;
+                case "delProduct5":
+                    sandwich.DeleteProduct(6);
+                    break;
+                case "delProduct6":
+                    sandwich.DeleteProduct(5);
+                    break;
+                case "delProduct7":
+                    sandwich.DeleteProduct(4);
+                    break;
+                case "delProduct8":
+                    sandwich.DeleteProduct(3);
+                    break;
+                case "delProduct9":
+                    sandwich.DeleteProduct(2);
+                    break;
+                case "delProduct10":
+                    sandwich.DeleteProduct(1);
+                    break;
+
+            }
+            UpdateIngredientList();
+        }
+
+        private void MoveProductUp(object sender, EventArgs e)
+        {
+            PictureBox p = (PictureBox)sender;
+
+            switch (p.Name)
+            {
+                case "upProduct1":
+                    sandwich.MoveProductUp(10);
+                    break;
+                case "upProduct2":
+                    sandwich.MoveProductUp(9);
+                    break;
+                case "upProduct3":
+                    sandwich.MoveProductUp(8);
+                    break;
+                case "upProduct4":
+                    sandwich.MoveProductUp(7);
+                    break;
+                case "upProduct5":
+                    sandwich.MoveProductUp(6);
+                    break;
+                case "upProduct6":
+                    sandwich.MoveProductUp(5);
+                    break;
+                case "upProduct7":
+                    sandwich.MoveProductUp(4);
+                    break;
+                case "upProduct8":
+                    sandwich.MoveProductUp(3);
+                    break;
+                case "upProduct9":
+                    sandwich.MoveProductUp(2);
+                    break;
+                case "upProduct10":
+                    sandwich.MoveProductUp(1);
+                    break;
+
+            }
+            UpdateIngredientList();
+        }
+
+        private void MoveProductDown(object sender, EventArgs e)
+        {
+            PictureBox p = (PictureBox)sender;
+
+            switch (p.Name)
+            {
+                case "downProduct1":
+                    sandwich.MoveProductDown(10);
+                    break;
+                case "downProduct2":
+                    sandwich.MoveProductDown(9);
+                    break;
+                case "downProduct3":
+                    sandwich.MoveProductDown(8);
+                    break;
+                case "downProduct4":
+                    sandwich.MoveProductDown(7);
+                    break;
+                case "downProduct5":
+                    sandwich.MoveProductDown(6);
+                    break;
+                case "downProduct6":
+                    sandwich.MoveProductDown(5);
+                    break;
+                case "downProduct7":
+                    sandwich.MoveProductDown(4);
+                    break;
+                case "downProduct8":
+                    sandwich.MoveProductDown(3);
+                    break;
+                case "downProduct9":
+                    sandwich.MoveProductDown(2);
+                    break;
+                case "downProduct10":
+                    sandwich.MoveProductDown(1);
+                    break;
+
+            }
+            UpdateIngredientList();
         }
 
     }

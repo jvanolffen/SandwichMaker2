@@ -54,6 +54,36 @@
             this.Choise1 = new System.Windows.Forms.PictureBox();
             this.CloseButton = new System.Windows.Forms.PictureBox();
             this.SettingsButton = new System.Windows.Forms.PictureBox();
+            this.delProduct1 = new System.Windows.Forms.PictureBox();
+            this.upProduct1 = new System.Windows.Forms.PictureBox();
+            this.downProduct1 = new System.Windows.Forms.PictureBox();
+            this.downProduct2 = new System.Windows.Forms.PictureBox();
+            this.upProduct2 = new System.Windows.Forms.PictureBox();
+            this.delProduct2 = new System.Windows.Forms.PictureBox();
+            this.downProduct3 = new System.Windows.Forms.PictureBox();
+            this.upProduct3 = new System.Windows.Forms.PictureBox();
+            this.delProduct3 = new System.Windows.Forms.PictureBox();
+            this.downProduct4 = new System.Windows.Forms.PictureBox();
+            this.upProduct4 = new System.Windows.Forms.PictureBox();
+            this.delProduct4 = new System.Windows.Forms.PictureBox();
+            this.downProduct5 = new System.Windows.Forms.PictureBox();
+            this.upProduct5 = new System.Windows.Forms.PictureBox();
+            this.delProduct5 = new System.Windows.Forms.PictureBox();
+            this.downProduct6 = new System.Windows.Forms.PictureBox();
+            this.upProduct6 = new System.Windows.Forms.PictureBox();
+            this.delProduct6 = new System.Windows.Forms.PictureBox();
+            this.downProduct7 = new System.Windows.Forms.PictureBox();
+            this.upProduct7 = new System.Windows.Forms.PictureBox();
+            this.delProduct7 = new System.Windows.Forms.PictureBox();
+            this.downProduct8 = new System.Windows.Forms.PictureBox();
+            this.upProduct8 = new System.Windows.Forms.PictureBox();
+            this.delProduct8 = new System.Windows.Forms.PictureBox();
+            this.downProduct9 = new System.Windows.Forms.PictureBox();
+            this.upProduct9 = new System.Windows.Forms.PictureBox();
+            this.delProduct9 = new System.Windows.Forms.PictureBox();
+            this.downProduct10 = new System.Windows.Forms.PictureBox();
+            this.upProduct10 = new System.Windows.Forms.PictureBox();
+            this.delProduct10 = new System.Windows.Forms.PictureBox();
             this.LayoutTable.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Ingredient10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Ingredient8)).BeginInit();
@@ -80,6 +110,36 @@
             ((System.ComponentModel.ISupportInitialize)(this.Choise1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SettingsButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct10)).BeginInit();
             this.SuspendLayout();
             // 
             // LayoutTable
@@ -286,6 +346,36 @@
             // 
             // ChoiseContainer
             // 
+            this.ChoiseContainer.Controls.Add(this.downProduct10);
+            this.ChoiseContainer.Controls.Add(this.upProduct10);
+            this.ChoiseContainer.Controls.Add(this.delProduct10);
+            this.ChoiseContainer.Controls.Add(this.downProduct9);
+            this.ChoiseContainer.Controls.Add(this.upProduct9);
+            this.ChoiseContainer.Controls.Add(this.delProduct9);
+            this.ChoiseContainer.Controls.Add(this.downProduct8);
+            this.ChoiseContainer.Controls.Add(this.upProduct8);
+            this.ChoiseContainer.Controls.Add(this.delProduct8);
+            this.ChoiseContainer.Controls.Add(this.downProduct7);
+            this.ChoiseContainer.Controls.Add(this.upProduct7);
+            this.ChoiseContainer.Controls.Add(this.delProduct7);
+            this.ChoiseContainer.Controls.Add(this.downProduct6);
+            this.ChoiseContainer.Controls.Add(this.upProduct6);
+            this.ChoiseContainer.Controls.Add(this.delProduct6);
+            this.ChoiseContainer.Controls.Add(this.downProduct5);
+            this.ChoiseContainer.Controls.Add(this.upProduct5);
+            this.ChoiseContainer.Controls.Add(this.delProduct5);
+            this.ChoiseContainer.Controls.Add(this.downProduct4);
+            this.ChoiseContainer.Controls.Add(this.upProduct4);
+            this.ChoiseContainer.Controls.Add(this.delProduct4);
+            this.ChoiseContainer.Controls.Add(this.downProduct3);
+            this.ChoiseContainer.Controls.Add(this.upProduct3);
+            this.ChoiseContainer.Controls.Add(this.delProduct3);
+            this.ChoiseContainer.Controls.Add(this.downProduct2);
+            this.ChoiseContainer.Controls.Add(this.upProduct2);
+            this.ChoiseContainer.Controls.Add(this.delProduct2);
+            this.ChoiseContainer.Controls.Add(this.downProduct1);
+            this.ChoiseContainer.Controls.Add(this.upProduct1);
+            this.ChoiseContainer.Controls.Add(this.delProduct1);
             this.ChoiseContainer.Controls.Add(this.Choise10);
             this.ChoiseContainer.Controls.Add(this.Choise9);
             this.ChoiseContainer.Controls.Add(this.Choise8);
@@ -411,6 +501,276 @@
             this.SettingsButton.TabStop = false;
             this.SettingsButton.Click += new System.EventHandler(this.OpenSettings);
             // 
+            // delProduct1
+            // 
+            this.delProduct1.Location = new System.Drawing.Point(215, 3);
+            this.delProduct1.Name = "delProduct1";
+            this.delProduct1.Size = new System.Drawing.Size(32, 32);
+            this.delProduct1.TabIndex = 4;
+            this.delProduct1.TabStop = false;
+            this.delProduct1.Click += new System.EventHandler(this.delProduct);
+            // 
+            // upProduct1
+            // 
+            this.upProduct1.Location = new System.Drawing.Point(177, 3);
+            this.upProduct1.Name = "upProduct1";
+            this.upProduct1.Size = new System.Drawing.Size(32, 32);
+            this.upProduct1.TabIndex = 10;
+            this.upProduct1.TabStop = false;
+            this.upProduct1.Click += new System.EventHandler(this.MoveProductUp);
+            // 
+            // downProduct1
+            // 
+            this.downProduct1.Location = new System.Drawing.Point(139, 3);
+            this.downProduct1.Name = "downProduct1";
+            this.downProduct1.Size = new System.Drawing.Size(32, 32);
+            this.downProduct1.TabIndex = 11;
+            this.downProduct1.TabStop = false;
+            this.downProduct1.Click += new System.EventHandler(this.MoveProductDown);
+            // 
+            // downProduct2
+            // 
+            this.downProduct2.Location = new System.Drawing.Point(139, 47);
+            this.downProduct2.Name = "downProduct2";
+            this.downProduct2.Size = new System.Drawing.Size(32, 32);
+            this.downProduct2.TabIndex = 14;
+            this.downProduct2.TabStop = false;
+            this.downProduct2.Click += new System.EventHandler(this.MoveProductDown);
+            // 
+            // upProduct2
+            // 
+            this.upProduct2.Location = new System.Drawing.Point(177, 47);
+            this.upProduct2.Name = "upProduct2";
+            this.upProduct2.Size = new System.Drawing.Size(32, 32);
+            this.upProduct2.TabIndex = 13;
+            this.upProduct2.TabStop = false;
+            this.upProduct2.Click += new System.EventHandler(this.MoveProductUp);
+            // 
+            // delProduct2
+            // 
+            this.delProduct2.Location = new System.Drawing.Point(215, 47);
+            this.delProduct2.Name = "delProduct2";
+            this.delProduct2.Size = new System.Drawing.Size(32, 32);
+            this.delProduct2.TabIndex = 12;
+            this.delProduct2.TabStop = false;
+            this.delProduct2.Click += new System.EventHandler(this.delProduct);
+            // 
+            // downProduct3
+            // 
+            this.downProduct3.Location = new System.Drawing.Point(139, 88);
+            this.downProduct3.Name = "downProduct3";
+            this.downProduct3.Size = new System.Drawing.Size(32, 32);
+            this.downProduct3.TabIndex = 17;
+            this.downProduct3.TabStop = false;
+            this.downProduct3.Click += new System.EventHandler(this.MoveProductDown);
+            // 
+            // upProduct3
+            // 
+            this.upProduct3.Location = new System.Drawing.Point(177, 88);
+            this.upProduct3.Name = "upProduct3";
+            this.upProduct3.Size = new System.Drawing.Size(32, 32);
+            this.upProduct3.TabIndex = 16;
+            this.upProduct3.TabStop = false;
+            this.upProduct3.Click += new System.EventHandler(this.MoveProductUp);
+            // 
+            // delProduct3
+            // 
+            this.delProduct3.Location = new System.Drawing.Point(215, 88);
+            this.delProduct3.Name = "delProduct3";
+            this.delProduct3.Size = new System.Drawing.Size(32, 32);
+            this.delProduct3.TabIndex = 15;
+            this.delProduct3.TabStop = false;
+            this.delProduct3.Click += new System.EventHandler(this.delProduct);
+            // 
+            // downProduct4
+            // 
+            this.downProduct4.Location = new System.Drawing.Point(139, 129);
+            this.downProduct4.Name = "downProduct4";
+            this.downProduct4.Size = new System.Drawing.Size(32, 32);
+            this.downProduct4.TabIndex = 20;
+            this.downProduct4.TabStop = false;
+            this.downProduct4.Click += new System.EventHandler(this.MoveProductDown);
+            // 
+            // upProduct4
+            // 
+            this.upProduct4.Location = new System.Drawing.Point(177, 129);
+            this.upProduct4.Name = "upProduct4";
+            this.upProduct4.Size = new System.Drawing.Size(32, 32);
+            this.upProduct4.TabIndex = 19;
+            this.upProduct4.TabStop = false;
+            this.upProduct4.Click += new System.EventHandler(this.MoveProductUp);
+            // 
+            // delProduct4
+            // 
+            this.delProduct4.Location = new System.Drawing.Point(215, 129);
+            this.delProduct4.Name = "delProduct4";
+            this.delProduct4.Size = new System.Drawing.Size(32, 32);
+            this.delProduct4.TabIndex = 18;
+            this.delProduct4.TabStop = false;
+            this.delProduct4.Click += new System.EventHandler(this.delProduct);
+            // 
+            // downProduct5
+            // 
+            this.downProduct5.Location = new System.Drawing.Point(139, 170);
+            this.downProduct5.Name = "downProduct5";
+            this.downProduct5.Size = new System.Drawing.Size(32, 32);
+            this.downProduct5.TabIndex = 23;
+            this.downProduct5.TabStop = false;
+            this.downProduct5.Click += new System.EventHandler(this.MoveProductDown);
+            // 
+            // upProduct5
+            // 
+            this.upProduct5.Location = new System.Drawing.Point(177, 170);
+            this.upProduct5.Name = "upProduct5";
+            this.upProduct5.Size = new System.Drawing.Size(32, 32);
+            this.upProduct5.TabIndex = 22;
+            this.upProduct5.TabStop = false;
+            this.upProduct5.Click += new System.EventHandler(this.MoveProductUp);
+            // 
+            // delProduct5
+            // 
+            this.delProduct5.Location = new System.Drawing.Point(215, 170);
+            this.delProduct5.Name = "delProduct5";
+            this.delProduct5.Size = new System.Drawing.Size(32, 32);
+            this.delProduct5.TabIndex = 21;
+            this.delProduct5.TabStop = false;
+            this.delProduct5.Click += new System.EventHandler(this.delProduct);
+            // 
+            // downProduct6
+            // 
+            this.downProduct6.Location = new System.Drawing.Point(139, 211);
+            this.downProduct6.Name = "downProduct6";
+            this.downProduct6.Size = new System.Drawing.Size(32, 32);
+            this.downProduct6.TabIndex = 26;
+            this.downProduct6.TabStop = false;
+            this.downProduct6.Click += new System.EventHandler(this.MoveProductDown);
+            // 
+            // upProduct6
+            // 
+            this.upProduct6.Location = new System.Drawing.Point(177, 211);
+            this.upProduct6.Name = "upProduct6";
+            this.upProduct6.Size = new System.Drawing.Size(32, 32);
+            this.upProduct6.TabIndex = 25;
+            this.upProduct6.TabStop = false;
+            this.upProduct6.Click += new System.EventHandler(this.MoveProductUp);
+            // 
+            // delProduct6
+            // 
+            this.delProduct6.Location = new System.Drawing.Point(215, 211);
+            this.delProduct6.Name = "delProduct6";
+            this.delProduct6.Size = new System.Drawing.Size(32, 32);
+            this.delProduct6.TabIndex = 24;
+            this.delProduct6.TabStop = false;
+            this.delProduct6.Click += new System.EventHandler(this.delProduct);
+            // 
+            // downProduct7
+            // 
+            this.downProduct7.Location = new System.Drawing.Point(139, 249);
+            this.downProduct7.Name = "downProduct7";
+            this.downProduct7.Size = new System.Drawing.Size(32, 32);
+            this.downProduct7.TabIndex = 29;
+            this.downProduct7.TabStop = false;
+            this.downProduct7.Click += new System.EventHandler(this.MoveProductDown);
+            // 
+            // upProduct7
+            // 
+            this.upProduct7.Location = new System.Drawing.Point(177, 249);
+            this.upProduct7.Name = "upProduct7";
+            this.upProduct7.Size = new System.Drawing.Size(32, 32);
+            this.upProduct7.TabIndex = 28;
+            this.upProduct7.TabStop = false;
+            this.upProduct7.Click += new System.EventHandler(this.MoveProductUp);
+            // 
+            // delProduct7
+            // 
+            this.delProduct7.Location = new System.Drawing.Point(215, 249);
+            this.delProduct7.Name = "delProduct7";
+            this.delProduct7.Size = new System.Drawing.Size(32, 32);
+            this.delProduct7.TabIndex = 27;
+            this.delProduct7.TabStop = false;
+            this.delProduct7.Click += new System.EventHandler(this.delProduct);
+            // 
+            // downProduct8
+            // 
+            this.downProduct8.Location = new System.Drawing.Point(139, 290);
+            this.downProduct8.Name = "downProduct8";
+            this.downProduct8.Size = new System.Drawing.Size(32, 32);
+            this.downProduct8.TabIndex = 32;
+            this.downProduct8.TabStop = false;
+            this.downProduct8.Click += new System.EventHandler(this.MoveProductDown);
+            // 
+            // upProduct8
+            // 
+            this.upProduct8.Location = new System.Drawing.Point(177, 290);
+            this.upProduct8.Name = "upProduct8";
+            this.upProduct8.Size = new System.Drawing.Size(32, 32);
+            this.upProduct8.TabIndex = 31;
+            this.upProduct8.TabStop = false;
+            this.upProduct8.Click += new System.EventHandler(this.MoveProductUp);
+            // 
+            // delProduct8
+            // 
+            this.delProduct8.Location = new System.Drawing.Point(215, 290);
+            this.delProduct8.Name = "delProduct8";
+            this.delProduct8.Size = new System.Drawing.Size(32, 32);
+            this.delProduct8.TabIndex = 30;
+            this.delProduct8.TabStop = false;
+            this.delProduct8.Click += new System.EventHandler(this.delProduct);
+            // 
+            // downProduct9
+            // 
+            this.downProduct9.Location = new System.Drawing.Point(139, 334);
+            this.downProduct9.Name = "downProduct9";
+            this.downProduct9.Size = new System.Drawing.Size(32, 32);
+            this.downProduct9.TabIndex = 35;
+            this.downProduct9.TabStop = false;
+            this.downProduct9.Click += new System.EventHandler(this.MoveProductDown);
+            // 
+            // upProduct9
+            // 
+            this.upProduct9.Location = new System.Drawing.Point(177, 334);
+            this.upProduct9.Name = "upProduct9";
+            this.upProduct9.Size = new System.Drawing.Size(32, 32);
+            this.upProduct9.TabIndex = 34;
+            this.upProduct9.TabStop = false;
+            this.upProduct9.Click += new System.EventHandler(this.MoveProductUp);
+            // 
+            // delProduct9
+            // 
+            this.delProduct9.Location = new System.Drawing.Point(215, 334);
+            this.delProduct9.Name = "delProduct9";
+            this.delProduct9.Size = new System.Drawing.Size(32, 32);
+            this.delProduct9.TabIndex = 33;
+            this.delProduct9.TabStop = false;
+            this.delProduct9.Click += new System.EventHandler(this.delProduct);
+            // 
+            // downProduct10
+            // 
+            this.downProduct10.Location = new System.Drawing.Point(139, 375);
+            this.downProduct10.Name = "downProduct10";
+            this.downProduct10.Size = new System.Drawing.Size(32, 32);
+            this.downProduct10.TabIndex = 38;
+            this.downProduct10.TabStop = false;
+            this.downProduct10.Click += new System.EventHandler(this.MoveProductDown);
+            // 
+            // upProduct10
+            // 
+            this.upProduct10.Location = new System.Drawing.Point(177, 375);
+            this.upProduct10.Name = "upProduct10";
+            this.upProduct10.Size = new System.Drawing.Size(32, 32);
+            this.upProduct10.TabIndex = 37;
+            this.upProduct10.TabStop = false;
+            this.upProduct10.Click += new System.EventHandler(this.MoveProductUp);
+            // 
+            // delProduct10
+            // 
+            this.delProduct10.Location = new System.Drawing.Point(215, 375);
+            this.delProduct10.Name = "delProduct10";
+            this.delProduct10.Size = new System.Drawing.Size(32, 32);
+            this.delProduct10.TabIndex = 36;
+            this.delProduct10.TabStop = false;
+            this.delProduct10.Click += new System.EventHandler(this.delProduct);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -452,6 +812,36 @@
             ((System.ComponentModel.ISupportInitialize)(this.Choise1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CloseButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SettingsButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.downProduct10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upProduct10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.delProduct10)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -485,6 +875,36 @@
         private System.Windows.Forms.PictureBox Choise1;
         private System.Windows.Forms.PictureBox CloseButton;
         private System.Windows.Forms.PictureBox SettingsButton;
+        private System.Windows.Forms.PictureBox downProduct10;
+        private System.Windows.Forms.PictureBox upProduct10;
+        private System.Windows.Forms.PictureBox delProduct10;
+        private System.Windows.Forms.PictureBox downProduct9;
+        private System.Windows.Forms.PictureBox upProduct9;
+        private System.Windows.Forms.PictureBox delProduct9;
+        private System.Windows.Forms.PictureBox downProduct8;
+        private System.Windows.Forms.PictureBox upProduct8;
+        private System.Windows.Forms.PictureBox delProduct8;
+        private System.Windows.Forms.PictureBox downProduct7;
+        private System.Windows.Forms.PictureBox upProduct7;
+        private System.Windows.Forms.PictureBox delProduct7;
+        private System.Windows.Forms.PictureBox downProduct6;
+        private System.Windows.Forms.PictureBox upProduct6;
+        private System.Windows.Forms.PictureBox delProduct6;
+        private System.Windows.Forms.PictureBox downProduct5;
+        private System.Windows.Forms.PictureBox upProduct5;
+        private System.Windows.Forms.PictureBox delProduct5;
+        private System.Windows.Forms.PictureBox downProduct4;
+        private System.Windows.Forms.PictureBox upProduct4;
+        private System.Windows.Forms.PictureBox delProduct4;
+        private System.Windows.Forms.PictureBox downProduct3;
+        private System.Windows.Forms.PictureBox upProduct3;
+        private System.Windows.Forms.PictureBox delProduct3;
+        private System.Windows.Forms.PictureBox downProduct2;
+        private System.Windows.Forms.PictureBox upProduct2;
+        private System.Windows.Forms.PictureBox delProduct2;
+        private System.Windows.Forms.PictureBox downProduct1;
+        private System.Windows.Forms.PictureBox upProduct1;
+        private System.Windows.Forms.PictureBox delProduct1;
 
 
     }
